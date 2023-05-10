@@ -12,14 +12,12 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8030/",
-					"protocol": "http",
+					"raw": "https://rnxeth.onrender.com",
+					"protocol": "https",
 					"host": [
-						"localhost"
-					],
-					"port": "8030",
-					"path": [
-						""
+						"rnxeth",
+						"onrender",
+						"com"
 					]
 				}
 			},
@@ -40,12 +38,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8030/send",
-					"protocol": "http",
+					"raw": "https://rnxeth.onrender.com/send",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"rnxeth",
+						"onrender",
+						"com"
 					],
-					"port": "8030",
 					"path": [
 						"send"
 					]
