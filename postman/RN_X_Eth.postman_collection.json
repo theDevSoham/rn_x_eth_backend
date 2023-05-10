@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "6280a355-6330-4e66-8aa0-8df5836679f5",
+		"name": "RN_X_Eth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24589212"
+	},
+	"item": [
+		{
+			"name": "Basic",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8030/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8030",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Ethers",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"senderKey\": \"a55c28a75ee03bf5234564b003a08553db4f6fa938a6ee5bc24866db68edf39d\",\r\n    \"to\": \"0x87879c81C2cF72D382E535977974071a7d858021\",\r\n    \"amount\": \"0.001\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8030/send",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8030",
+					"path": [
+						"send"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
